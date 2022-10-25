@@ -1,0 +1,36 @@
+@import "./styles/home.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+  
+
+  --main-font: 'Roboto', sans-serif;
+  --link-color: #C4C4CC;
+  --text-color: #E1E1E6;
+  --selected-color: #FFFFFF;
+  --bg-black: #000000;
+}
+
+nav {
+  display: flex;
+  gap: 3.2rem;
+  margin: 4rem 0 4rem 7.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 2rem;
+  font-family: var(--main-font);
+}
+
+nav a:focus {
+  color: var(--selected-color);
+  font-weight: 700;
+}
