@@ -7,13 +7,14 @@
 }
 
 :root {
-  font-size: 62,5%;
+  font-size: 62.5%;
   
 
   --main-font: 'Roboto', sans-serif;
   --link-color: #C4C4CC;
   --text-color: #E1E1E6;
   --selected-color: #FFFFFF;
+  --hover-text-color: #02799D;
   --bg-black: #000000;
 }
 
