@@ -1,15 +1,6 @@
 #title-universe {
   font-family: var(--main-font);
 }
-
-body {
-  background-image: url(../assets/mountains-universe-1.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 100% auto; 
-  background-color: var(--bg-black);
-}
-
 .main-container {
   display: flex;
   flex-direction: column;

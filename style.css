@@ -1,6 +1,4 @@
 @import "./styles/home.css";
-@import "./styles/universe.css";
-@import "./styles/explore.css";
 
 * {
   padding: 0;
@@ -8,8 +6,12 @@
   box-sizing: border-box;
 }
 
-:root {
+html {
   font-size: 62.5%;
+
+  --bg-home: url("./assets/mountains-universe-1.png");
+  --bg-universe: url("./assets/mountains-universe02.png");
+  --bg-explore: url("./assets/mountains-universe-3.png");
   
 
   --main-font: 'Roboto', sans-serif;
@@ -18,6 +20,14 @@
   --selected-color: #FFFFFF;
   --hover-text-color: #02799D;
   --bg-black: #000000;
+}
+
+body {
+  background-image: var(--bg-home);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; 
+  background-color: var(--bg-black);
 }
 
 
