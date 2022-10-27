@@ -1,5 +1,7 @@
 @import "./styles/home.css";
 
+
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +12,7 @@ html {
   font-size: 62.5%;
 
   --bg-home: url("./assets/mountains-universe-1.png");
-  --bg-universe: url("./assets/mountains-universe02.png");
+  --bg-universe: url("./assets/mountains-universe-2.png");
   --bg-explore: url("./assets/mountains-universe-3.png");
   
 
@@ -23,12 +25,27 @@ html {
 }
 
 body {
-  background-image: var(--bg-home);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% auto; 
   background-color: var(--bg-black);
 }
+
+.home {
+  background-image: var(--bg-home);
+}
+
+.universe {
+  background-image: var(--bg-universe);
+}
+
+.explore {
+  background-image: var(--bg-explore);
+}
+  
+
+
+
 
 
 nav {
